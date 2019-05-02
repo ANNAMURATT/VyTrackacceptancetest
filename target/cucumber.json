@@ -1,0 +1,130 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "driver login",
+        "description": "",
+        "id": "login-functionality;driver-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7121763600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6102010600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs in using \"Driver1\" and \"Cybertek1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Driver1\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Cybertek1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginStepDefinitions.user_logs_in_using_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "homepage should be displayed",
+            "match": {
+              "location": "LoginStepDefinitions.homepage_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130492800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "title should be \"FLEET MANAGEMENT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FLEET MANAGEMENT\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinitions.title_should_be(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36453500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "there should be 4 menu options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinitions.there_should_be_menu_options(Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\login.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
