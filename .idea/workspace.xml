@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f9ef75-3f92-495d-a46b-5b88b3d9fc21" name="Default Changelist" comment="" />
+    <list default="true" id="22f9ef75-3f92-495d-a46b-5b88b3d9fc21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/MenuDetailsStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/UserDetailsStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/menudetails.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/userDetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/homepagedetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/homepagedetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/pages/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/pages/SignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/step_definitions/LoginStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/step_definitions/LoginStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/homepagedetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/homepagedetails.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,31 +37,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configuration.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/step_definitions/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/SignInPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="189">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,41 +50,27 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/step_definitions/LoginStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/userDetails.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="104">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -89,32 +78,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/homepagedetails.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/BrowserUtilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="126" column="94" selection-start-line="126" selection-start-column="94" selection-end-line="126" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/step_definitions/HomePageMenuStepDefinitions.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-131" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/menudetails.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -128,21 +136,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/utilities/ConfigurationReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java" />
         <option value="$PROJECT_DIR$/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/SignInPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/LoginStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/homepagedetails.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/HomePageMenuStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/utilities/BrowserUtilities.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/MenuDetailsStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/Exercise.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/UserDetailsStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/SignInPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/LoginStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/step_definitions/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/homepagedetails.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner2.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/menudetails.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner4.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/userDetails.feature" />
       </list>
     </option>
   </component>
@@ -154,11 +175,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -257,7 +279,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556642389017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557605302453" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.anna.runners" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -271,16 +298,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Leads homepage">
-    <configuration name="Scenario: Leads homepage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SmokeTestRunner2">
+    <configuration name="Scenario: user information data driven test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/homepagedetails.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/userDetails.feature" />
       <option name="GLUE" value="com.anna.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="VyTrackacceptancetest" />
-      <option name="NAME_FILTER" value="^Leads homepage$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Leads homepage$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Leads homepage" />
+      <option name="NAME_FILTER" value="^user information data driven test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^user information data driven test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user information data driven test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -291,14 +318,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: driver login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/userDetails.feature" />
+      <option name="GLUE" value="com.anna.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="VyTrackacceptancetest" />
-      <option name="NAME_FILTER" value="^driver login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^driver login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: driver login" />
+      <option name="NAME_FILTER" value="^user information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^user information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user information" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -324,11 +352,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTestRunner1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VyTrackacceptancetest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anna.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anna.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.anna.runners.SmokeTestRunner1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTestRunner2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VyTrackacceptancetest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anna.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anna.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.anna.runners.SmokeTestRunner2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Leads homepage" />
+        <item itemvalue="JUnit.SmokeTestRunner2" />
+        <item itemvalue="JUnit.SmokeTestRunner1" />
+        <item itemvalue="Cucumber java.Scenario: user information data driven test" />
+        <item itemvalue="Cucumber java.Scenario: user information" />
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber java.Scenario: driver login" />
       </list>
     </recent_temporary>
   </component>
@@ -346,41 +406,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__driver_login - 2019.04.29 at 14h 49m 39s.xml">
-      <configuration name="Scenario: driver login" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__user_information_data_driven_test - 2019.05.11 at 12h 11m 55s.xml">
+      <configuration name="Scenario: user information data driven test" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__driver_login - 2019.04.29 at 16h 27m 35s.xml">
-      <configuration name="Scenario: driver login" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__user_information_data_driven_test - 2019.05.11 at 12h 49m 24s.xml">
+      <configuration name="Scenario: user information data driven test" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="CukesRunner - 2019.04.29 at 16h 29m 48s.xml">
+    <history-entry file="CukesRunner - 2019.05.11 at 13h 04m 03s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2019.04.29 at 16h 31m 20s.xml">
+    <history-entry file="CukesRunner - 2019.05.11 at 13h 04m 32s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2019.04.29 at 17h 26m 56s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
+    <history-entry file="Scenario__user_information_data_driven_test - 2019.05.11 at 13h 38m 15s.xml">
+      <configuration name="Scenario: user information data driven test" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="CukesRunner - 2019.04.29 at 17h 30m 44s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
+    <history-entry file="Scenario__user_information - 2019.05.11 at 13h 38m 32s.xml">
+      <configuration name="Scenario: user information" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="CukesRunner - 2019.04.29 at 17h 31m 56s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
+    <history-entry file="Scenario__user_information - 2019.05.11 at 13h 42m 41s.xml">
+      <configuration name="Scenario: user information" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="CukesRunner - 2019.04.29 at 18h 56m 48s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
+    <history-entry file="Scenario__user_information_data_driven_test - 2019.05.11 at 13h 45m 49s.xml">
+      <configuration name="Scenario: user information data driven test" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Leads_homepage - 2019.04.30 at 10h 43m 46s.xml">
-      <configuration name="Scenario: Leads homepage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="SmokeTestRunner1 - 2019.05.11 at 13h 59m 46s.xml">
+      <configuration name="SmokeTestRunner1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Leads_homepage - 2019.04.30 at 10h 50m 22s.xml">
-      <configuration name="Scenario: Leads homepage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="SmokeTestRunner2 - 2019.05.11 at 14h 00m 26s.xml">
+      <configuration name="SmokeTestRunner2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27206478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2769231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,12 +449,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5186501" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30195382" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -437,13 +497,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/ConfigurationReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -463,61 +516,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
+        <state relative-caret-position="714">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/SignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/step_definitions/LoginStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/homepagedetails.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -531,13 +534,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/step_definitions/MenuDetailsStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/Exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/step_definitions/UserDetailsStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/BrowserUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="1959">
           <caret line="126" column="94" selection-start-line="126" selection-start-column="94" selection-end-line="126" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/step_definitions/LoginStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/step_definitions/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/homepagedetails.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/menudetails.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/userDetails.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
         </state>
       </provider>
     </entry>

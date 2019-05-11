@@ -27,7 +27,5 @@ public class SignInPage {
         this.password.sendKeys(password);
         sigIn.click();
 
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),5);
-//        wait.until(ExpectedConditions.titleContains("Fleet"));
     }
 }

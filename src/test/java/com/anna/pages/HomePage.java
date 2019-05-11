@@ -17,4 +17,9 @@ public class HomePage {
 
     @FindBy(xpath = "//h1//a[@title='Fleet Management']")
     public WebElement appLogo;
+
+    @FindBy(id = "user-menu")
+    public WebElement userName;
+
+
 }

@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
         features = {"src\\test\\resources\\features"},
         glue = "com\\anna\\step_definitions"
         , dryRun = false
-        , tags = "@wip"
+        , tags = "@user"
 )
 
-public class CukesRunner {
+public class SmokeTestRunner4 {
 }
